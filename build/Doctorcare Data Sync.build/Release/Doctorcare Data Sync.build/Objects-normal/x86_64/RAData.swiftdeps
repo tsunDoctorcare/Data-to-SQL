@@ -1,0 +1,649 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ADDRESS_RECORD_ONE"
+- "ACCOUNTING_TRANSACTION_RECORD"
+- "MESSAGE_FACILITY_RECORD"
+- "BALANCE_FORWARD_RECORD"
+- "CLAIM_ITEM_RECORD"
+- "CLAIM_HEADER_RECORD"
+- "ADDRESS_RECORD_TWO"
+- "FILE_HEADER_RECORD"
+- "RA_FILE"
+- "CLAIM"
+- "UTILITY"
+provides-nominal:
+- "C20Doctorcare_Data_Sync18ADDRESS_RECORD_ONE"
+- "C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD"
+- "C20Doctorcare_Data_Sync23MESSAGE_FACILITY_RECORD"
+- "C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD"
+- "C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD"
+- "C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD"
+- "C20Doctorcare_Data_Sync18ADDRESS_RECORD_TWO"
+- "C20Doctorcare_Data_Sync18FILE_HEADER_RECORD"
+- "C20Doctorcare_Data_Sync7RA_FILE"
+- "C20Doctorcare_Data_Sync5CLAIM"
+- "C20Doctorcare_Data_Sync7UTILITY"
+provides-member:
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_ONE", ""]
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", ""]
+- ["C20Doctorcare_Data_Sync23MESSAGE_FACILITY_RECORD", ""]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", ""]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", ""]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", ""]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_TWO", ""]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", ""]
+- ["C20Doctorcare_Data_Sync7RA_FILE", ""]
+- ["C20Doctorcare_Data_Sync5CLAIM", ""]
+- ["C20Doctorcare_Data_Sync7UTILITY", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "advance"
+- "UTILITY"
+- "MESSAGE_FACILITY_RECORD"
+- !private "+="
+- !private "FloatLiteralType"
+- "Int"
+- !private "-"
+- "BALANCE_FORWARD_RECORD"
+- "CLAIM"
+- !private "+"
+- "CLAIM_ITEM_RECORD"
+- "ACCOUNTING_TRANSACTION_RECORD"
+- !private "Array"
+- "CLAIM_HEADER_RECORD"
+- "StringLiteralType"
+- !private "print"
+- "String"
+- !private "Range"
+- !private "=="
+- !private "IntegerLiteralType"
+- "ADDRESS_RECORD_TWO"
+- "FILE_HEADER_RECORD"
+- "ADDRESS_RECORD_ONE"
+- "RA_FILE"
+depends-member:
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", "String"]
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", "UTILITY"]
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", "cheque_indicator"]
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", "deinit"]
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", "init"]
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", "transaction_amount"]
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", "transaction_amount_sign"]
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", "transaction_code"]
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", "transaction_date"]
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", "transaction_message"]
+- ["C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD", "utility"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_ONE", "String"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_ONE", "UTILITY"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_ONE", "address_line_one"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_ONE", "billing_agent_name"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_ONE", "deinit"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_ONE", "init"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_ONE", "utility"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_TWO", "String"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_TWO", "UTILITY"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_TWO", "address_line_2"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_TWO", "address_line_3"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_TWO", "deinit"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_TWO", "init"]
+- ["C20Doctorcare_Data_Sync18ADDRESS_RECORD_TWO", "utility"]
+- !private ["PSs9AnyObject", "MOH_group_identifier"]
+- !private ["PSs9AnyObject", "MOH_office_code"]
+- !private ["PSs9AnyObject", "RA_data_sequence"]
+- !private ["PSs9AnyObject", "Range"]
+- ["PSs9AnyObject", "UTILITY"]
+- !private ["PSs9AnyObject", "accounting_number"]
+- !private ["PSs9AnyObject", "accounting_transactions"]
+- !private ["PSs9AnyObject", "address_line_2"]
+- !private ["PSs9AnyObject", "address_line_3"]
+- !private ["PSs9AnyObject", "address_line_one"]
+- !private ["PSs9AnyObject", "address_one"]
+- !private ["PSs9AnyObject", "address_two"]
+- !private ["PSs9AnyObject", "advance"]
+- !private ["PSs9AnyObject", "amount_brought_forward_advances"]
+- !private ["PSs9AnyObject", "amount_brought_forward_advances_sign"]
+- !private ["PSs9AnyObject", "amount_brought_forward_claims_adjustment"]
+- !private ["PSs9AnyObject", "amount_brought_forward_claims_adjustment_sign"]
+- !private ["PSs9AnyObject", "amount_brought_forward_other_deductions"]
+- !private ["PSs9AnyObject", "amount_brought_forward_other_deductions_sign"]
+- !private ["PSs9AnyObject", "amount_brought_forward_reductions"]
+- !private ["PSs9AnyObject", "amount_brought_forward_reductions_sign"]
+- !private ["PSs9AnyObject", "amount_paid"]
+- !private ["PSs9AnyObject", "amount_paid_sign"]
+- !private ["PSs9AnyObject", "amount_submitted"]
+- !private ["PSs9AnyObject", "balance_forward"]
+- !private ["PSs9AnyObject", "billing_agent_name"]
+- !private ["PSs9AnyObject", "cheque_indicator"]
+- !private ["PSs9AnyObject", "cheque_number"]
+- !private ["PSs9AnyObject", "claim_header"]
+- !private ["PSs9AnyObject", "claim_items"]
+- !private ["PSs9AnyObject", "claim_number"]
+- !private ["PSs9AnyObject", "claims"]
+- !private ["PSs9AnyObject", "explanatory_code"]
+- !private ["PSs9AnyObject", "file_header"]
+- !private ["PSs9AnyObject", "group_number"]
+- !private ["PSs9AnyObject", "health_registration_number"]
+- !private ["PSs9AnyObject", "healthcare_number"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "message_text"]
+- !private ["PSs9AnyObject", "messages"]
+- !private ["PSs9AnyObject", "number_of_service"]
+- !private ["PSs9AnyObject", "patient_first_name"]
+- !private ["PSs9AnyObject", "patient_last_name"]
+- !private ["PSs9AnyObject", "payee_name"]
+- !private ["PSs9AnyObject", "payment_date"]
+- !private ["PSs9AnyObject", "payment_program"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "province_code"]
+- !private ["PSs9AnyObject", "service_code"]
+- !private ["PSs9AnyObject", "service_date"]
+- !private ["PSs9AnyObject", "service_location_indicator"]
+- !private ["PSs9AnyObject", "specialty"]
+- !private ["PSs9AnyObject", "startIndex"]
+- !private ["PSs9AnyObject", "subStringWithRange"]
+- !private ["PSs9AnyObject", "substringFromIndex"]
+- !private ["PSs9AnyObject", "substringToIndex"]
+- !private ["PSs9AnyObject", "substringWithRange"]
+- !private ["PSs9AnyObject", "total_amount_payable"]
+- !private ["PSs9AnyObject", "total_amount_sign"]
+- !private ["PSs9AnyObject", "transaction_amount"]
+- !private ["PSs9AnyObject", "transaction_amount_sign"]
+- !private ["PSs9AnyObject", "transaction_code"]
+- !private ["PSs9AnyObject", "transaction_date"]
+- !private ["PSs9AnyObject", "transaction_message"]
+- !private ["PSs9AnyObject", "transaction_type"]
+- !private ["PSs9AnyObject", "utility"]
+- !private ["PSs9AnyObject", "version_code"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Buffer"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Buffer"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "String"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "UTILITY"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "amount_brought_forward_advances"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "amount_brought_forward_advances_sign"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "amount_brought_forward_claims_adjustment"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "amount_brought_forward_claims_adjustment_sign"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "amount_brought_forward_other_deductions"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "amount_brought_forward_other_deductions_sign"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "amount_brought_forward_reductions"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "amount_brought_forward_reductions_sign"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "deinit"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "init"]
+- ["C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD", "utility"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["C20Doctorcare_Data_Sync5CLAIM", "CLAIM_HEADER_RECORD"]
+- ["C20Doctorcare_Data_Sync5CLAIM", "CLAIM_ITEM_RECORD"]
+- ["C20Doctorcare_Data_Sync5CLAIM", "claim_header"]
+- ["C20Doctorcare_Data_Sync5CLAIM", "claim_items"]
+- ["C20Doctorcare_Data_Sync5CLAIM", "deinit"]
+- ["C20Doctorcare_Data_Sync5CLAIM", "init"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "MOH_group_identifier"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "String"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "UTILITY"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "accounting_number"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "claim_number"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "deinit"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "health_registration_number"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "healthcare_number"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "init"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "patient_first_name"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "patient_last_name"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "payment_program"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "province_code"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "service_location_indicator"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "specialty"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "transaction_type"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "utility"]
+- ["C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD", "version_code"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "String"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "UTILITY"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "amount_paid"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "amount_paid_sign"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "amount_submitted"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "claim_number"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "deinit"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "explanatory_code"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "init"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "number_of_service"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "service_code"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "service_date"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "transaction_type"]
+- ["C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD", "utility"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "startIndex"]
+- !private ["PSs11CVarArgType", "substringFromIndex"]
+- !private ["PSs11CVarArgType", "substringToIndex"]
+- !private ["PSs11CVarArgType", "substringWithRange"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Buffer"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "init"]
+- !private ["PSs10Comparable", "Distance"]
+- ["PSs10Comparable", "Index"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "startIndex"]
+- !private ["PSs10Comparable", "substringFromIndex"]
+- !private ["PSs10Comparable", "substringToIndex"]
+- !private ["PSs10Comparable", "substringWithRange"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Buffer"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "startIndex"]
+- !private ["PSs28CustomDebugStringConvertible", "substringFromIndex"]
+- !private ["PSs28CustomDebugStringConvertible", "substringToIndex"]
+- !private ["PSs28CustomDebugStringConvertible", "substringWithRange"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_Buffer"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "startIndex"]
+- !private ["PSs23CustomStringConvertible", "substringFromIndex"]
+- !private ["PSs23CustomStringConvertible", "substringToIndex"]
+- !private ["PSs23CustomStringConvertible", "substringWithRange"]
+- !private ["PSs9Equatable", "Distance"]
+- ["PSs9Equatable", "Index"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "startIndex"]
+- !private ["PSs9Equatable", "substringFromIndex"]
+- !private ["PSs9Equatable", "substringToIndex"]
+- !private ["PSs9Equatable", "substringWithRange"]
+- ["PSs41ExtendedGraphemeClusterLiteralConvertible", "Index"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "startIndex"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "substringFromIndex"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "substringToIndex"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "substringWithRange"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "MOH_office_code"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "RA_data_sequence"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "String"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "UTILITY"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "cheque_number"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "deinit"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "group_number"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "healthcare_number"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "init"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "payee_name"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "payment_date"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "specialty"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "total_amount_payable"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "total_amount_sign"]
+- ["C20Doctorcare_Data_Sync18FILE_HEADER_RECORD", "utility"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Distance"]
+- ["PSs8Hashable", "Index"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "startIndex"]
+- !private ["PSs8Hashable", "substringFromIndex"]
+- !private ["PSs8Hashable", "substringToIndex"]
+- !private ["PSs8Hashable", "substringWithRange"]
+- !private ["VVSS13CharacterView5Index", "Distance"]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Buffer"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "init"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- ["C20Doctorcare_Data_Sync23MESSAGE_FACILITY_RECORD", "String"]
+- ["C20Doctorcare_Data_Sync23MESSAGE_FACILITY_RECORD", "UTILITY"]
+- ["C20Doctorcare_Data_Sync23MESSAGE_FACILITY_RECORD", "deinit"]
+- ["C20Doctorcare_Data_Sync23MESSAGE_FACILITY_RECORD", "init"]
+- ["C20Doctorcare_Data_Sync23MESSAGE_FACILITY_RECORD", "message_text"]
+- ["C20Doctorcare_Data_Sync23MESSAGE_FACILITY_RECORD", "utility"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- ["PSs14MirrorPathType", "Index"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "startIndex"]
+- !private ["PSs14MirrorPathType", "substringFromIndex"]
+- !private ["PSs14MirrorPathType", "substringToIndex"]
+- !private ["PSs14MirrorPathType", "substringWithRange"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Buffer"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Buffer"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Buffer"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSo8NSCoding", "startIndex"]
+- !private ["PSo8NSCoding", "substringFromIndex"]
+- !private ["PSo8NSCoding", "substringToIndex"]
+- !private ["PSo8NSCoding", "substringWithRange"]
+- !private ["PSo9NSCopying", "startIndex"]
+- !private ["PSo9NSCopying", "substringFromIndex"]
+- !private ["PSo9NSCopying", "substringToIndex"]
+- !private ["PSo9NSCopying", "substringWithRange"]
+- !private ["PSo16NSMutableCopying", "startIndex"]
+- !private ["PSo16NSMutableCopying", "substringFromIndex"]
+- !private ["PSo16NSMutableCopying", "substringToIndex"]
+- !private ["PSo16NSMutableCopying", "substringWithRange"]
+- !private ["CSo8NSObject", "startIndex"]
+- !private ["CSo8NSObject", "substringFromIndex"]
+- !private ["CSo8NSObject", "substringToIndex"]
+- !private ["CSo8NSObject", "substringWithRange"]
+- !private ["PSo16NSObjectProtocol", "startIndex"]
+- !private ["PSo16NSObjectProtocol", "substringFromIndex"]
+- !private ["PSo16NSObjectProtocol", "substringToIndex"]
+- !private ["PSo16NSObjectProtocol", "substringWithRange"]
+- !private ["PSo19NSPasteboardReading", "startIndex"]
+- !private ["PSo19NSPasteboardReading", "substringFromIndex"]
+- !private ["PSo19NSPasteboardReading", "substringToIndex"]
+- !private ["PSo19NSPasteboardReading", "substringWithRange"]
+- !private ["PSo19NSPasteboardWriting", "startIndex"]
+- !private ["PSo19NSPasteboardWriting", "substringFromIndex"]
+- !private ["PSo19NSPasteboardWriting", "substringToIndex"]
+- !private ["PSo19NSPasteboardWriting", "substringWithRange"]
+- !private ["PSo14NSSecureCoding", "startIndex"]
+- !private ["PSo14NSSecureCoding", "substringFromIndex"]
+- !private ["PSo14NSSecureCoding", "substringToIndex"]
+- !private ["PSo14NSSecureCoding", "substringWithRange"]
+- !private ["CSo8NSString", "startIndex"]
+- !private ["CSo8NSString", "substringFromIndex"]
+- !private ["CSo8NSString", "substringToIndex"]
+- !private ["CSo8NSString", "substringWithRange"]
+- ["PSs16OutputStreamType", "Index"]
+- !private ["PSs16OutputStreamType", "startIndex"]
+- !private ["PSs16OutputStreamType", "substringFromIndex"]
+- !private ["PSs16OutputStreamType", "substringToIndex"]
+- !private ["PSs16OutputStreamType", "substringWithRange"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "ACCOUNTING_TRANSACTION_RECORD"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "ADDRESS_RECORD_ONE"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "ADDRESS_RECORD_TWO"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "BALANCE_FORWARD_RECORD"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "CLAIM"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "FILE_HEADER_RECORD"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "MESSAGE_FACILITY_RECORD"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "accounting_transactions"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "address_one"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "address_two"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "balance_forward"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "claims"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "deinit"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "file_header"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "init"]
+- ["C20Doctorcare_Data_Sync7RA_FILE", "messages"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["VSs5Range", "init"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Buffer"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Buffer"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "init"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- ["PSs10Streamable", "Index"]
+- !private ["PSs10Streamable", "startIndex"]
+- !private ["PSs10Streamable", "substringFromIndex"]
+- !private ["PSs10Streamable", "substringToIndex"]
+- !private ["PSs10Streamable", "substringWithRange"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- ["SS", "Index"]
+- !private ["SS", "startIndex"]
+- !private ["SS", "substringFromIndex"]
+- !private ["SS", "substringToIndex"]
+- !private ["SS", "substringWithRange"]
+- ["PSs30StringInterpolationConvertible", "Index"]
+- !private ["PSs30StringInterpolationConvertible", "startIndex"]
+- !private ["PSs30StringInterpolationConvertible", "substringFromIndex"]
+- !private ["PSs30StringInterpolationConvertible", "substringToIndex"]
+- !private ["PSs30StringInterpolationConvertible", "substringWithRange"]
+- ["PSs24StringLiteralConvertible", "Index"]
+- !private ["PSs24StringLiteralConvertible", "startIndex"]
+- !private ["PSs24StringLiteralConvertible", "substringFromIndex"]
+- !private ["PSs24StringLiteralConvertible", "substringToIndex"]
+- !private ["PSs24StringLiteralConvertible", "substringWithRange"]
+- ["C20Doctorcare_Data_Sync7UTILITY", "Int"]
+- !private ["C20Doctorcare_Data_Sync7UTILITY", "Range"]
+- ["C20Doctorcare_Data_Sync7UTILITY", "String"]
+- !private ["C20Doctorcare_Data_Sync7UTILITY", "advance"]
+- ["C20Doctorcare_Data_Sync7UTILITY", "deinit"]
+- ["C20Doctorcare_Data_Sync7UTILITY", "init"]
+- !private ["C20Doctorcare_Data_Sync7UTILITY", "print"]
+- ["C20Doctorcare_Data_Sync7UTILITY", "subStringWithEnd"]
+- ["C20Doctorcare_Data_Sync7UTILITY", "subStringWithRange"]
+- ["C20Doctorcare_Data_Sync7UTILITY", "subStringWithStart"]
+- ["PSs31UnicodeScalarLiteralConvertible", "Index"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "startIndex"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "substringFromIndex"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "substringToIndex"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "substringWithRange"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Buffer"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "Index"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "startIndex"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "substringFromIndex"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "substringToIndex"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "substringWithRange"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- ["PSs32_BuiltinStringLiteralConvertible", "Index"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "startIndex"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "substringFromIndex"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "substringToIndex"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "substringWithRange"]
+- ["PSs37_BuiltinUTF16StringLiteralConvertible", "Index"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "startIndex"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "substringFromIndex"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "substringToIndex"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "substringWithRange"]
+- ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "Index"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "startIndex"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "substringFromIndex"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "substringToIndex"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "substringWithRange"]
+- !private ["PSs16_CocoaStringType", "startIndex"]
+- !private ["PSs16_CocoaStringType", "substringFromIndex"]
+- !private ["PSs16_CocoaStringType", "substringToIndex"]
+- !private ["PSs16_CocoaStringType", "substringWithRange"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Buffer"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Buffer"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "startIndex"]
+- !private ["PSs21_ObjectiveCBridgeable", "substringFromIndex"]
+- !private ["PSs21_ObjectiveCBridgeable", "substringToIndex"]
+- !private ["PSs21_ObjectiveCBridgeable", "substringWithRange"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Generator"]
+- ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Buffer"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "startIndex"]
+- !private ["PSs12_Reflectable", "substringFromIndex"]
+- !private ["PSs12_Reflectable", "substringToIndex"]
+- !private ["PSs12_Reflectable", "substringWithRange"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "C20Doctorcare_Data_Sync29ACCOUNTING_TRANSACTION_RECORD"
+- "C20Doctorcare_Data_Sync18ADDRESS_RECORD_ONE"
+- "C20Doctorcare_Data_Sync18ADDRESS_RECORD_TWO"
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- "C20Doctorcare_Data_Sync22BALANCE_FORWARD_RECORD"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "C20Doctorcare_Data_Sync5CLAIM"
+- "C20Doctorcare_Data_Sync19CLAIM_HEADER_RECORD"
+- "C20Doctorcare_Data_Sync17CLAIM_ITEM_RECORD"
+- !private "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- "C20Doctorcare_Data_Sync18FILE_HEADER_RECORD"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "VVSS13CharacterView5Index"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- "C20Doctorcare_Data_Sync23MESSAGE_FACILITY_RECORD"
+- "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo19NSPasteboardReading"
+- !private "PSo19NSPasteboardWriting"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "PSs16OutputStreamType"
+- "C20Doctorcare_Data_Sync7RA_FILE"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- "PSs10Streamable"
+- !private "PSs10Strideable"
+- "SS"
+- "PSs30StringInterpolationConvertible"
+- "PSs24StringLiteralConvertible"
+- "C20Doctorcare_Data_Sync7UTILITY"
+- "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- "PSs32_BuiltinStringLiteralConvertible"
+- "PSs37_BuiltinUTF16StringLiteralConvertible"
+- "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "60c83e3522922b488fb5c5add150a563"

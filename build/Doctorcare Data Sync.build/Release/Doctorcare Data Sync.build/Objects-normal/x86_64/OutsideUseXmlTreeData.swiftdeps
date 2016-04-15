@@ -1,0 +1,822 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "REPORT_ID"
+- "REPORT_DATE"
+- "REPORT_NAME"
+- "REPORT_PERIOD_START"
+- "REPORT_PERIOD_END"
+- "GROUP_ID"
+- "GROUP_TYPE"
+- "GROUP_NAME"
+- "PROVIDER_NUMBER"
+- "PROVIDER_LAST_NAME"
+- "PROVIDER_FIRST_NAME"
+- "PROVIDER_MIDDLE_NAME"
+- "PATIENT_HEALTH_NUMBER"
+- "PATIENT_LAST_NAME"
+- "PATIENT_FIRST_NAME"
+- "PATIENT_BIRTHDATE"
+- "PATIENT_SEX"
+- "SERVICE_DATE"
+- "SERVICE_CODE"
+- "SERVICE_DESCRIPTION"
+- "SERVICE_AMT"
+- "REPORT_DTL"
+- "GROUP_DTL"
+- "PROVIDER_DTL"
+- "SERVICE_DTL1"
+- "PATIENT_DTL"
+- "PATIENT"
+- "PROVIDER"
+- "GROUP"
+- "REPORT"
+- "OUTSIDE_USE_TEMP"
+provides-nominal:
+- "C20Doctorcare_Data_Sync9REPORT_ID"
+- "C20Doctorcare_Data_Sync11REPORT_DATE"
+- "C20Doctorcare_Data_Sync11REPORT_NAME"
+- "C20Doctorcare_Data_Sync19REPORT_PERIOD_START"
+- "C20Doctorcare_Data_Sync17REPORT_PERIOD_END"
+- "C20Doctorcare_Data_Sync8GROUP_ID"
+- "C20Doctorcare_Data_Sync10GROUP_TYPE"
+- "C20Doctorcare_Data_Sync10GROUP_NAME"
+- "C20Doctorcare_Data_Sync15PROVIDER_NUMBER"
+- "C20Doctorcare_Data_Sync18PROVIDER_LAST_NAME"
+- "C20Doctorcare_Data_Sync19PROVIDER_FIRST_NAME"
+- "C20Doctorcare_Data_Sync20PROVIDER_MIDDLE_NAME"
+- "C20Doctorcare_Data_Sync21PATIENT_HEALTH_NUMBER"
+- "C20Doctorcare_Data_Sync17PATIENT_LAST_NAME"
+- "C20Doctorcare_Data_Sync18PATIENT_FIRST_NAME"
+- "C20Doctorcare_Data_Sync17PATIENT_BIRTHDATE"
+- "C20Doctorcare_Data_Sync11PATIENT_SEX"
+- "C20Doctorcare_Data_Sync12SERVICE_DATE"
+- "C20Doctorcare_Data_Sync12SERVICE_CODE"
+- "C20Doctorcare_Data_Sync19SERVICE_DESCRIPTION"
+- "C20Doctorcare_Data_Sync11SERVICE_AMT"
+- "C20Doctorcare_Data_Sync10REPORT_DTL"
+- "C20Doctorcare_Data_Sync9GROUP_DTL"
+- "C20Doctorcare_Data_Sync12PROVIDER_DTL"
+- "C20Doctorcare_Data_Sync12SERVICE_DTL1"
+- "C20Doctorcare_Data_Sync11PATIENT_DTL"
+- "C20Doctorcare_Data_Sync7PATIENT"
+- "C20Doctorcare_Data_Sync8PROVIDER"
+- "C20Doctorcare_Data_Sync5GROUP"
+- "C20Doctorcare_Data_Sync6REPORT"
+- "C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP"
+provides-member:
+- ["C20Doctorcare_Data_Sync9REPORT_ID", ""]
+- ["C20Doctorcare_Data_Sync11REPORT_DATE", ""]
+- ["C20Doctorcare_Data_Sync11REPORT_NAME", ""]
+- ["C20Doctorcare_Data_Sync19REPORT_PERIOD_START", ""]
+- ["C20Doctorcare_Data_Sync17REPORT_PERIOD_END", ""]
+- ["C20Doctorcare_Data_Sync8GROUP_ID", ""]
+- ["C20Doctorcare_Data_Sync10GROUP_TYPE", ""]
+- ["C20Doctorcare_Data_Sync10GROUP_NAME", ""]
+- ["C20Doctorcare_Data_Sync15PROVIDER_NUMBER", ""]
+- ["C20Doctorcare_Data_Sync18PROVIDER_LAST_NAME", ""]
+- ["C20Doctorcare_Data_Sync19PROVIDER_FIRST_NAME", ""]
+- ["C20Doctorcare_Data_Sync20PROVIDER_MIDDLE_NAME", ""]
+- ["C20Doctorcare_Data_Sync21PATIENT_HEALTH_NUMBER", ""]
+- ["C20Doctorcare_Data_Sync17PATIENT_LAST_NAME", ""]
+- ["C20Doctorcare_Data_Sync18PATIENT_FIRST_NAME", ""]
+- ["C20Doctorcare_Data_Sync17PATIENT_BIRTHDATE", ""]
+- ["C20Doctorcare_Data_Sync11PATIENT_SEX", ""]
+- ["C20Doctorcare_Data_Sync12SERVICE_DATE", ""]
+- ["C20Doctorcare_Data_Sync12SERVICE_CODE", ""]
+- ["C20Doctorcare_Data_Sync19SERVICE_DESCRIPTION", ""]
+- ["C20Doctorcare_Data_Sync11SERVICE_AMT", ""]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", ""]
+- ["C20Doctorcare_Data_Sync9GROUP_DTL", ""]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", ""]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", ""]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", ""]
+- ["C20Doctorcare_Data_Sync7PATIENT", ""]
+- ["C20Doctorcare_Data_Sync8PROVIDER", ""]
+- ["C20Doctorcare_Data_Sync5GROUP", ""]
+- ["C20Doctorcare_Data_Sync6REPORT", ""]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "GROUP_DTL"
+- "SERVICE_AMT"
+- !private "StringLiteralType"
+- "PATIENT_HEALTH_NUMBER"
+- "REPORT_DATE"
+- !private "..<"
+- "String"
+- "SERVICE_DTL1"
+- "PATIENT_BIRTHDATE"
+- !private "Array"
+- "REPORT_PERIOD_START"
+- "SERVICE_DATE"
+- "PROVIDER_LAST_NAME"
+- "SERVICE_CODE"
+- "PROVIDER_DTL"
+- !private "=="
+- "PROVIDER_FIRST_NAME"
+- "GROUP"
+- "PATIENT"
+- "REPORT_NAME"
+- "PROVIDER_NUMBER"
+- "REPORT"
+- "OUTSIDE_USE_TEMP"
+- "GROUP_TYPE"
+- "PROVIDER_MIDDLE_NAME"
+- "REPORT_ID"
+- "SERVICE_DESCRIPTION"
+- "PROVIDER"
+- "PATIENT_SEX"
+- "GROUP_ID"
+- "PATIENT_DTL"
+- "PATIENT_LAST_NAME"
+- "REPORT_DTL"
+- "REPORT_PERIOD_END"
+- "PATIENT_FIRST_NAME"
+- "GROUP_NAME"
+depends-member:
+- ["PSs9AnyObject", "GROUP"]
+- ["PSs9AnyObject", "GROUP_DTL"]
+- ["PSs9AnyObject", "GROUP_ID"]
+- ["PSs9AnyObject", "GROUP_NAME"]
+- ["PSs9AnyObject", "GROUP_TYPE"]
+- ["PSs9AnyObject", "PATIENT"]
+- ["PSs9AnyObject", "PATIENT_BIRTHDATE"]
+- ["PSs9AnyObject", "PATIENT_DTL"]
+- ["PSs9AnyObject", "PATIENT_FIRST_NAME"]
+- ["PSs9AnyObject", "PATIENT_HEALTH_NUMBER"]
+- ["PSs9AnyObject", "PATIENT_LAST_NAME"]
+- ["PSs9AnyObject", "PATIENT_SEX"]
+- ["PSs9AnyObject", "PROVIDER"]
+- ["PSs9AnyObject", "PROVIDER_DTL"]
+- ["PSs9AnyObject", "PROVIDER_FIRST_NAME"]
+- ["PSs9AnyObject", "PROVIDER_LAST_NAME"]
+- ["PSs9AnyObject", "PROVIDER_MIDDLE_NAME"]
+- ["PSs9AnyObject", "PROVIDER_NUMBER"]
+- ["PSs9AnyObject", "REPORT"]
+- ["PSs9AnyObject", "REPORT_DATE"]
+- ["PSs9AnyObject", "REPORT_DTL"]
+- ["PSs9AnyObject", "REPORT_ID"]
+- ["PSs9AnyObject", "REPORT_NAME"]
+- ["PSs9AnyObject", "REPORT_PERIOD_END"]
+- ["PSs9AnyObject", "REPORT_PERIOD_START"]
+- ["PSs9AnyObject", "SERVICE_AMT"]
+- ["PSs9AnyObject", "SERVICE_CODE"]
+- ["PSs9AnyObject", "SERVICE_DATE"]
+- ["PSs9AnyObject", "SERVICE_DESCRIPTION"]
+- ["PSs9AnyObject", "SERVICE_DTL1"]
+- ["PSs9AnyObject", "String"]
+- !private ["PSs9AnyObject", "elementName"]
+- !private ["PSs9AnyObject", "group"]
+- !private ["PSs9AnyObject", "group_dtl"]
+- !private ["PSs9AnyObject", "group_id"]
+- !private ["PSs9AnyObject", "group_name"]
+- !private ["PSs9AnyObject", "group_type"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "patient"]
+- !private ["PSs9AnyObject", "patient_birthdate"]
+- !private ["PSs9AnyObject", "patient_dtl"]
+- !private ["PSs9AnyObject", "patient_first_name"]
+- !private ["PSs9AnyObject", "patient_health_number"]
+- !private ["PSs9AnyObject", "patient_last_name"]
+- !private ["PSs9AnyObject", "patient_list"]
+- !private ["PSs9AnyObject", "patient_sex"]
+- !private ["PSs9AnyObject", "provider"]
+- !private ["PSs9AnyObject", "provider_dtl"]
+- !private ["PSs9AnyObject", "provider_first_name"]
+- !private ["PSs9AnyObject", "provider_last_name"]
+- !private ["PSs9AnyObject", "provider_middle_name"]
+- !private ["PSs9AnyObject", "provider_number"]
+- !private ["PSs9AnyObject", "report"]
+- !private ["PSs9AnyObject", "report_date"]
+- !private ["PSs9AnyObject", "report_dtl"]
+- !private ["PSs9AnyObject", "report_id"]
+- !private ["PSs9AnyObject", "report_name"]
+- !private ["PSs9AnyObject", "report_period_end"]
+- !private ["PSs9AnyObject", "report_period_start"]
+- !private ["PSs9AnyObject", "service_amt"]
+- !private ["PSs9AnyObject", "service_code"]
+- !private ["PSs9AnyObject", "service_date"]
+- !private ["PSs9AnyObject", "service_description"]
+- !private ["PSs9AnyObject", "service_dtl1"]
+- !private ["PSs9AnyObject", "service_dtl1_list"]
+- !private ["PSs9AnyObject", "txt"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "append"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- !private ["PSs23ArrayLiteralConvertible", "subscript"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs22BidirectionalIndexType", "_DisabledRangeIndex"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "_DisabledRangeIndex"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "_DisabledRangeIndex"]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "append"]
+- !private ["PSs14CollectionType", "count"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "_DisabledRangeIndex"]
+- ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "append"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "append"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Generator"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "_DisabledRangeIndex"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "init"]
+- ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs16ForwardIndexType", "_DisabledRangeIndex"]
+- ["C20Doctorcare_Data_Sync5GROUP", "GROUP"]
+- ["C20Doctorcare_Data_Sync5GROUP", "GROUP_DTL"]
+- ["C20Doctorcare_Data_Sync5GROUP", "PROVIDER"]
+- ["C20Doctorcare_Data_Sync5GROUP", "copy"]
+- ["C20Doctorcare_Data_Sync5GROUP", "deinit"]
+- ["C20Doctorcare_Data_Sync5GROUP", "group_dtl"]
+- ["C20Doctorcare_Data_Sync5GROUP", "init"]
+- ["C20Doctorcare_Data_Sync5GROUP", "provider"]
+- ["C20Doctorcare_Data_Sync9GROUP_DTL", "GROUP_DTL"]
+- ["C20Doctorcare_Data_Sync9GROUP_DTL", "GROUP_ID"]
+- ["C20Doctorcare_Data_Sync9GROUP_DTL", "GROUP_NAME"]
+- ["C20Doctorcare_Data_Sync9GROUP_DTL", "GROUP_TYPE"]
+- ["C20Doctorcare_Data_Sync9GROUP_DTL", "copy"]
+- ["C20Doctorcare_Data_Sync9GROUP_DTL", "deinit"]
+- ["C20Doctorcare_Data_Sync9GROUP_DTL", "group_id"]
+- ["C20Doctorcare_Data_Sync9GROUP_DTL", "group_name"]
+- ["C20Doctorcare_Data_Sync9GROUP_DTL", "group_type"]
+- ["C20Doctorcare_Data_Sync9GROUP_DTL", "init"]
+- ["C20Doctorcare_Data_Sync8GROUP_ID", "String"]
+- ["C20Doctorcare_Data_Sync8GROUP_ID", "deinit"]
+- ["C20Doctorcare_Data_Sync8GROUP_ID", "init"]
+- ["C20Doctorcare_Data_Sync8GROUP_ID", "otxt"]
+- ["C20Doctorcare_Data_Sync8GROUP_ID", "txt"]
+- ["C20Doctorcare_Data_Sync10GROUP_NAME", "String"]
+- ["C20Doctorcare_Data_Sync10GROUP_NAME", "deinit"]
+- ["C20Doctorcare_Data_Sync10GROUP_NAME", "init"]
+- ["C20Doctorcare_Data_Sync10GROUP_NAME", "otxt"]
+- ["C20Doctorcare_Data_Sync10GROUP_NAME", "txt"]
+- ["C20Doctorcare_Data_Sync10GROUP_TYPE", "String"]
+- ["C20Doctorcare_Data_Sync10GROUP_TYPE", "deinit"]
+- ["C20Doctorcare_Data_Sync10GROUP_TYPE", "init"]
+- ["C20Doctorcare_Data_Sync10GROUP_TYPE", "otxt"]
+- ["C20Doctorcare_Data_Sync10GROUP_TYPE", "txt"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["VSs16HalfOpenInterval", "Generator"]
+- !private ["VSs16HalfOpenInterval", "deinit"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "_DisabledRangeIndex"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "init"]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "append"]
+- !private ["PSs9Indexable", "count"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "_DisabledRangeIndex"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "_DisabledRangeIndex"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "_DisabledRangeIndex"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "_DisabledRangeIndex"]
+- !private ["PSs12IntervalType", "Generator"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "_DisabledRangeIndex"]
+- ["PSs14MirrorPathType", "init"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs21MutableCollectionType", "count"]
+- !private ["PSs21MutableCollectionType", "subscript"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableIndexable", "count"]
+- !private ["PSs16MutableIndexable", "subscript"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "append"]
+- !private ["PSs16MutableSliceable", "count"]
+- !private ["PSs16MutableSliceable", "subscript"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "GROUP"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "GROUP_DTL"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "GROUP_ID"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "GROUP_NAME"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "GROUP_TYPE"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PATIENT"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PATIENT_BIRTHDATE"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PATIENT_DTL"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PATIENT_FIRST_NAME"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PATIENT_HEALTH_NUMBER"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PATIENT_LAST_NAME"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PATIENT_SEX"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PROVIDER"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PROVIDER_DTL"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PROVIDER_FIRST_NAME"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PROVIDER_LAST_NAME"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PROVIDER_MIDDLE_NAME"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "PROVIDER_NUMBER"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "REPORT"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "REPORT_DATE"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "REPORT_DTL"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "REPORT_ID"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "REPORT_NAME"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "REPORT_PERIOD_END"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "REPORT_PERIOD_START"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "SERVICE_AMT"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "SERVICE_CODE"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "SERVICE_DATE"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "SERVICE_DESCRIPTION"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "SERVICE_DTL1"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "String"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "deinit"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "elementName"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "group"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "group_dtl"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "group_id"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "group_name"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "group_type"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "init"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "patient"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "patient_birthdate"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "patient_dtl"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "patient_first_name"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "patient_health_number"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "patient_last_name"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "patient_list"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "patient_sex"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "provider"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "provider_dtl"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "provider_first_name"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "provider_last_name"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "provider_middle_name"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "provider_number"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "report"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "report_date"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "report_dtl"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "report_id"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "report_name"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "report_period_end"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "report_period_start"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "reset"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "service_amt"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "service_code"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "service_date"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "service_description"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "service_dtl1"]
+- ["C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP", "service_dtl1_list"]
+- !private ["Sq", "deinit"]
+- ["PSs16OutputStreamType", "init"]
+- ["C20Doctorcare_Data_Sync7PATIENT", "PATIENT"]
+- ["C20Doctorcare_Data_Sync7PATIENT", "PATIENT_DTL"]
+- ["C20Doctorcare_Data_Sync7PATIENT", "SERVICE_DTL1"]
+- ["C20Doctorcare_Data_Sync7PATIENT", "copy"]
+- ["C20Doctorcare_Data_Sync7PATIENT", "deinit"]
+- ["C20Doctorcare_Data_Sync7PATIENT", "init"]
+- ["C20Doctorcare_Data_Sync7PATIENT", "patient_dtl"]
+- ["C20Doctorcare_Data_Sync7PATIENT", "service_dtl1_list"]
+- ["C20Doctorcare_Data_Sync17PATIENT_BIRTHDATE", "String"]
+- ["C20Doctorcare_Data_Sync17PATIENT_BIRTHDATE", "deinit"]
+- ["C20Doctorcare_Data_Sync17PATIENT_BIRTHDATE", "init"]
+- ["C20Doctorcare_Data_Sync17PATIENT_BIRTHDATE", "otxt"]
+- ["C20Doctorcare_Data_Sync17PATIENT_BIRTHDATE", "txt"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "PATIENT_BIRTHDATE"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "PATIENT_DTL"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "PATIENT_FIRST_NAME"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "PATIENT_HEALTH_NUMBER"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "PATIENT_LAST_NAME"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "PATIENT_SEX"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "copy"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "deinit"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "init"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "patient_birthdate"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "patient_first_name"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "patient_health_number"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "patient_last_name"]
+- ["C20Doctorcare_Data_Sync11PATIENT_DTL", "patient_sex"]
+- ["C20Doctorcare_Data_Sync18PATIENT_FIRST_NAME", "String"]
+- ["C20Doctorcare_Data_Sync18PATIENT_FIRST_NAME", "deinit"]
+- ["C20Doctorcare_Data_Sync18PATIENT_FIRST_NAME", "init"]
+- ["C20Doctorcare_Data_Sync18PATIENT_FIRST_NAME", "otxt"]
+- ["C20Doctorcare_Data_Sync18PATIENT_FIRST_NAME", "txt"]
+- ["C20Doctorcare_Data_Sync21PATIENT_HEALTH_NUMBER", "String"]
+- ["C20Doctorcare_Data_Sync21PATIENT_HEALTH_NUMBER", "deinit"]
+- ["C20Doctorcare_Data_Sync21PATIENT_HEALTH_NUMBER", "init"]
+- ["C20Doctorcare_Data_Sync21PATIENT_HEALTH_NUMBER", "otxt"]
+- ["C20Doctorcare_Data_Sync21PATIENT_HEALTH_NUMBER", "txt"]
+- ["C20Doctorcare_Data_Sync17PATIENT_LAST_NAME", "String"]
+- ["C20Doctorcare_Data_Sync17PATIENT_LAST_NAME", "deinit"]
+- ["C20Doctorcare_Data_Sync17PATIENT_LAST_NAME", "init"]
+- ["C20Doctorcare_Data_Sync17PATIENT_LAST_NAME", "otxt"]
+- ["C20Doctorcare_Data_Sync17PATIENT_LAST_NAME", "txt"]
+- ["C20Doctorcare_Data_Sync11PATIENT_SEX", "String"]
+- ["C20Doctorcare_Data_Sync11PATIENT_SEX", "deinit"]
+- ["C20Doctorcare_Data_Sync11PATIENT_SEX", "init"]
+- ["C20Doctorcare_Data_Sync11PATIENT_SEX", "otxt"]
+- ["C20Doctorcare_Data_Sync11PATIENT_SEX", "txt"]
+- ["C20Doctorcare_Data_Sync8PROVIDER", "PATIENT"]
+- ["C20Doctorcare_Data_Sync8PROVIDER", "PROVIDER"]
+- ["C20Doctorcare_Data_Sync8PROVIDER", "PROVIDER_DTL"]
+- ["C20Doctorcare_Data_Sync8PROVIDER", "copy"]
+- ["C20Doctorcare_Data_Sync8PROVIDER", "deinit"]
+- ["C20Doctorcare_Data_Sync8PROVIDER", "init"]
+- ["C20Doctorcare_Data_Sync8PROVIDER", "patient_list"]
+- ["C20Doctorcare_Data_Sync8PROVIDER", "provider_dtl"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "PROVIDER_DTL"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "PROVIDER_FIRST_NAME"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "PROVIDER_LAST_NAME"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "PROVIDER_MIDDLE_NAME"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "PROVIDER_NUMBER"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "copy"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "deinit"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "init"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "provider_first_name"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "provider_last_name"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "provider_middle_name"]
+- ["C20Doctorcare_Data_Sync12PROVIDER_DTL", "provider_number"]
+- ["C20Doctorcare_Data_Sync19PROVIDER_FIRST_NAME", "String"]
+- ["C20Doctorcare_Data_Sync19PROVIDER_FIRST_NAME", "deinit"]
+- ["C20Doctorcare_Data_Sync19PROVIDER_FIRST_NAME", "init"]
+- ["C20Doctorcare_Data_Sync19PROVIDER_FIRST_NAME", "otxt"]
+- ["C20Doctorcare_Data_Sync19PROVIDER_FIRST_NAME", "txt"]
+- ["C20Doctorcare_Data_Sync18PROVIDER_LAST_NAME", "String"]
+- ["C20Doctorcare_Data_Sync18PROVIDER_LAST_NAME", "deinit"]
+- ["C20Doctorcare_Data_Sync18PROVIDER_LAST_NAME", "init"]
+- ["C20Doctorcare_Data_Sync18PROVIDER_LAST_NAME", "otxt"]
+- ["C20Doctorcare_Data_Sync18PROVIDER_LAST_NAME", "txt"]
+- ["C20Doctorcare_Data_Sync20PROVIDER_MIDDLE_NAME", "String"]
+- ["C20Doctorcare_Data_Sync20PROVIDER_MIDDLE_NAME", "deinit"]
+- ["C20Doctorcare_Data_Sync20PROVIDER_MIDDLE_NAME", "init"]
+- ["C20Doctorcare_Data_Sync20PROVIDER_MIDDLE_NAME", "otxt"]
+- ["C20Doctorcare_Data_Sync20PROVIDER_MIDDLE_NAME", "txt"]
+- ["C20Doctorcare_Data_Sync15PROVIDER_NUMBER", "String"]
+- ["C20Doctorcare_Data_Sync15PROVIDER_NUMBER", "deinit"]
+- ["C20Doctorcare_Data_Sync15PROVIDER_NUMBER", "init"]
+- ["C20Doctorcare_Data_Sync15PROVIDER_NUMBER", "otxt"]
+- ["C20Doctorcare_Data_Sync15PROVIDER_NUMBER", "txt"]
+- ["C20Doctorcare_Data_Sync6REPORT", "GROUP"]
+- ["C20Doctorcare_Data_Sync6REPORT", "REPORT"]
+- ["C20Doctorcare_Data_Sync6REPORT", "REPORT_DTL"]
+- ["C20Doctorcare_Data_Sync6REPORT", "copy"]
+- ["C20Doctorcare_Data_Sync6REPORT", "deinit"]
+- ["C20Doctorcare_Data_Sync6REPORT", "group"]
+- ["C20Doctorcare_Data_Sync6REPORT", "init"]
+- ["C20Doctorcare_Data_Sync6REPORT", "report_dtl"]
+- ["C20Doctorcare_Data_Sync11REPORT_DATE", "String"]
+- ["C20Doctorcare_Data_Sync11REPORT_DATE", "deinit"]
+- ["C20Doctorcare_Data_Sync11REPORT_DATE", "init"]
+- ["C20Doctorcare_Data_Sync11REPORT_DATE", "otxt"]
+- ["C20Doctorcare_Data_Sync11REPORT_DATE", "txt"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "REPORT_DATE"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "REPORT_DTL"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "REPORT_ID"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "REPORT_NAME"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "REPORT_PERIOD_END"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "REPORT_PERIOD_START"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "copy"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "deinit"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "init"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "report_date"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "report_id"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "report_name"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "report_period_end"]
+- ["C20Doctorcare_Data_Sync10REPORT_DTL", "report_period_start"]
+- ["C20Doctorcare_Data_Sync9REPORT_ID", "String"]
+- ["C20Doctorcare_Data_Sync9REPORT_ID", "deinit"]
+- ["C20Doctorcare_Data_Sync9REPORT_ID", "init"]
+- ["C20Doctorcare_Data_Sync9REPORT_ID", "otxt"]
+- ["C20Doctorcare_Data_Sync9REPORT_ID", "txt"]
+- ["C20Doctorcare_Data_Sync11REPORT_NAME", "String"]
+- ["C20Doctorcare_Data_Sync11REPORT_NAME", "deinit"]
+- ["C20Doctorcare_Data_Sync11REPORT_NAME", "init"]
+- ["C20Doctorcare_Data_Sync11REPORT_NAME", "otxt"]
+- ["C20Doctorcare_Data_Sync11REPORT_NAME", "txt"]
+- ["C20Doctorcare_Data_Sync17REPORT_PERIOD_END", "String"]
+- ["C20Doctorcare_Data_Sync17REPORT_PERIOD_END", "deinit"]
+- ["C20Doctorcare_Data_Sync17REPORT_PERIOD_END", "init"]
+- ["C20Doctorcare_Data_Sync17REPORT_PERIOD_END", "otxt"]
+- ["C20Doctorcare_Data_Sync17REPORT_PERIOD_END", "txt"]
+- ["C20Doctorcare_Data_Sync19REPORT_PERIOD_START", "String"]
+- ["C20Doctorcare_Data_Sync19REPORT_PERIOD_START", "deinit"]
+- ["C20Doctorcare_Data_Sync19REPORT_PERIOD_START", "init"]
+- ["C20Doctorcare_Data_Sync19REPORT_PERIOD_START", "otxt"]
+- ["C20Doctorcare_Data_Sync19REPORT_PERIOD_START", "txt"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs21RandomAccessIndexType", "_DisabledRangeIndex"]
+- !private ["VSs5Range", "Generator"]
+- !private ["VSs14RangeGenerator", "Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- !private ["PSs30RangeReplaceableCollectionType", "subscript"]
+- ["C20Doctorcare_Data_Sync11SERVICE_AMT", "String"]
+- ["C20Doctorcare_Data_Sync11SERVICE_AMT", "deinit"]
+- ["C20Doctorcare_Data_Sync11SERVICE_AMT", "init"]
+- ["C20Doctorcare_Data_Sync11SERVICE_AMT", "otxt"]
+- ["C20Doctorcare_Data_Sync11SERVICE_AMT", "txt"]
+- ["C20Doctorcare_Data_Sync12SERVICE_CODE", "String"]
+- ["C20Doctorcare_Data_Sync12SERVICE_CODE", "deinit"]
+- ["C20Doctorcare_Data_Sync12SERVICE_CODE", "init"]
+- ["C20Doctorcare_Data_Sync12SERVICE_CODE", "otxt"]
+- ["C20Doctorcare_Data_Sync12SERVICE_CODE", "txt"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DATE", "String"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DATE", "deinit"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DATE", "init"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DATE", "otxt"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DATE", "txt"]
+- ["C20Doctorcare_Data_Sync19SERVICE_DESCRIPTION", "String"]
+- ["C20Doctorcare_Data_Sync19SERVICE_DESCRIPTION", "deinit"]
+- ["C20Doctorcare_Data_Sync19SERVICE_DESCRIPTION", "init"]
+- ["C20Doctorcare_Data_Sync19SERVICE_DESCRIPTION", "otxt"]
+- ["C20Doctorcare_Data_Sync19SERVICE_DESCRIPTION", "txt"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "SERVICE_AMT"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "SERVICE_CODE"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "SERVICE_DATE"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "SERVICE_DESCRIPTION"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "SERVICE_DTL1"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "copy"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "deinit"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "init"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "service_amt"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "service_code"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "service_date"]
+- ["C20Doctorcare_Data_Sync12SERVICE_DTL1", "service_description"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "append"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs17SignedIntegerType", "_DisabledRangeIndex"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "_DisabledRangeIndex"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "_DisabledRangeIndex"]
+- ["SS", "init"]
+- ["PSs30StringInterpolationConvertible", "init"]
+- ["PSs24StringLiteralConvertible", "init"]
+- ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "append"]
+- !private ["PSs10_ArrayType", "count"]
+- !private ["PSs10_ArrayType", "subscript"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "_DisabledRangeIndex"]
+- ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
+- !private ["PSs24_DestructorSafeContainer", "subscript"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs14_Incrementable", "_DisabledRangeIndex"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "_DisabledRangeIndex"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "_DisabledRangeIndex"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "append"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs22_RandomAccessAmbiguity", "_DisabledRangeIndex"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_DisabledRangeIndex"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "append"]
+- !private ["PSs12_Reflectable", "count"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "subscript"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs18_SignedIntegerType", "_DisabledRangeIndex"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- !private "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs16ForwardIndexType"
+- "C20Doctorcare_Data_Sync5GROUP"
+- "C20Doctorcare_Data_Sync9GROUP_DTL"
+- "C20Doctorcare_Data_Sync8GROUP_ID"
+- "C20Doctorcare_Data_Sync10GROUP_NAME"
+- "C20Doctorcare_Data_Sync10GROUP_TYPE"
+- !private "PSs13GeneratorType"
+- !private "VSs16HalfOpenInterval"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs12IntervalType"
+- "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "C20Doctorcare_Data_Sync16OUTSIDE_USE_TEMP"
+- !private "Sq"
+- "PSs16OutputStreamType"
+- "C20Doctorcare_Data_Sync7PATIENT"
+- "C20Doctorcare_Data_Sync17PATIENT_BIRTHDATE"
+- "C20Doctorcare_Data_Sync11PATIENT_DTL"
+- "C20Doctorcare_Data_Sync18PATIENT_FIRST_NAME"
+- "C20Doctorcare_Data_Sync21PATIENT_HEALTH_NUMBER"
+- "C20Doctorcare_Data_Sync17PATIENT_LAST_NAME"
+- "C20Doctorcare_Data_Sync11PATIENT_SEX"
+- "C20Doctorcare_Data_Sync8PROVIDER"
+- "C20Doctorcare_Data_Sync12PROVIDER_DTL"
+- "C20Doctorcare_Data_Sync19PROVIDER_FIRST_NAME"
+- "C20Doctorcare_Data_Sync18PROVIDER_LAST_NAME"
+- "C20Doctorcare_Data_Sync20PROVIDER_MIDDLE_NAME"
+- "C20Doctorcare_Data_Sync15PROVIDER_NUMBER"
+- "C20Doctorcare_Data_Sync6REPORT"
+- "C20Doctorcare_Data_Sync11REPORT_DATE"
+- "C20Doctorcare_Data_Sync10REPORT_DTL"
+- "C20Doctorcare_Data_Sync9REPORT_ID"
+- "C20Doctorcare_Data_Sync11REPORT_NAME"
+- "C20Doctorcare_Data_Sync17REPORT_PERIOD_END"
+- "C20Doctorcare_Data_Sync19REPORT_PERIOD_START"
+- !private "PSs21RandomAccessIndexType"
+- !private "VSs5Range"
+- !private "VSs14RangeGenerator"
+- !private "PSs30RangeReplaceableCollectionType"
+- "C20Doctorcare_Data_Sync11SERVICE_AMT"
+- "C20Doctorcare_Data_Sync12SERVICE_CODE"
+- "C20Doctorcare_Data_Sync12SERVICE_DATE"
+- "C20Doctorcare_Data_Sync19SERVICE_DESCRIPTION"
+- "C20Doctorcare_Data_Sync12SERVICE_DTL1"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "VSs5Slice"
+- "PSs10Streamable"
+- !private "PSs10Strideable"
+- "SS"
+- "PSs30StringInterpolationConvertible"
+- "PSs24StringLiteralConvertible"
+- "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- "PSs32_BuiltinStringLiteralConvertible"
+- "PSs37_BuiltinUTF16StringLiteralConvertible"
+- "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "9934acad906c580e844810026a114e50"

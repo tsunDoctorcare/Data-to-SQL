@@ -1,0 +1,18 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "d470cb7f88bbf9c4e44b586f36666f15"
+build_time: [508001022, 800050000]
+inputs:
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/RAOutput.swift": !dirty [508000191, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/RAData.swift": !dirty [508000191, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/AppDelegate.swift": [505413481, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/OutsideUseOutput.swift": !dirty [507999547, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/RAViewController.swift": !dirty [508000526, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/OutsideUseWordOutput.swift": !dirty [508000301, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/RAWordOutput.swift": [506812835, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/RosterViewController.swift": !dirty [508000526, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/SyncViewController.swift": !dirty [507999825, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/RosterOutput.swift": !dirty [507999547, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/OutsideUseViewController.swift": !dirty [508000526, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/RosterWordOutput.swift": !dirty [507999547, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/OutsideUseXmlTreeData.swift": [506034254, 0]
+  "/Users/Yikkuro/Documents/swift_learning/Data to SQL/Data to SQL/RosterXmlTreeData.swift": [506032690, 0]
